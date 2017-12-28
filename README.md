@@ -1,0 +1,2 @@
+# Hibernate_Native_Generator_
+Native means Your generator will use identity or sequence columns according to what your current database support.  Native: This generation strategy is the default. It simply chooses the primary key generation strategy that is the default for the database in question, which quite typically is IDENTITY, although it might be TABLE or SEQUENCE depending upon how the database is configured. The native strategy is typically recommended, as it makes your code and your applications most portable.
