@@ -1,0 +1,9 @@
+SQL> create sequence seqhilo start with 1000 increment by 10;
+
+Sequence created.
+
+SQL> commit;
+
+Commit complete.
+
+SQL>
